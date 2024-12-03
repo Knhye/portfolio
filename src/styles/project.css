@@ -1,0 +1,33 @@
+.project {
+  background-image: url("../../public/images/background-img3.jpeg");
+  background-color: rgba(0, 0, 0, 0.9); /* 흰색 50% 투명도 */
+  background-blend-mode: overlay; /* 배경 혼합 모드 */
+  background-size: cover;
+}
+
+.project-contents {
+  display: block;
+  font-family: "S-CoreDream-3Light";
+}
+
+.project-contents-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.project-contents-title {
+  font-size: 23px;
+  color: rgb(214, 214, 214);
+  margin-left: 50px;
+}
+
+.project-contents-title p {
+  font-size: 13px;
+  color: rgb(214, 214, 214);
+}
+
+.project-contents-cover {
+  width: 700px;
+  height: auto;
+}

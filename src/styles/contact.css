@@ -1,0 +1,66 @@
+.contact {
+  background-image: url("../../public/images/background-img3.jpeg");
+  background-color: rgba(0, 0, 0, 0.9); /* 흰색 50% 투명도 */
+  background-blend-mode: overlay; /* 배경 혼합 모드 */
+  background-size: cover;
+}
+
+.contact-title {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(199, 199, 199);
+  font-family: "LOTTERIADDAG";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 10%;
+}
+
+.contact-contents {
+  display: flex;
+  margin: 5% 10% 0 23.5%;
+}
+
+.contact-content {
+  margin: 0 0 5% 80px;
+  display: flex;
+  color: white;
+  font-family: "LOTTERIADDAG";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contact-content:hover {
+  transform: scale(1.01);
+}
+
+.contact-content-instagram {
+  margin-left: 10px;
+  color: white;
+}
+
+.contact-content-email {
+  margin-left: 10px;
+}
+
+.contact-content-github {
+  margin-left: 10px;
+}
+
+svg {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10%;
+}
+
+.contact-content:hover,
+a:hover {
+  color: rgb(255, 64, 163);
+}

@@ -1,0 +1,63 @@
+.about {
+  display: flex;
+  background-image: url("../../public/images/background-img3.jpeg");
+  background-color: rgba(0, 0, 0, 0.9); /* 흰색 50% 투명도 */
+  background-blend-mode: overlay; /* 배경 혼합 모드 */
+  background-size: cover;
+
+  font-family: "S-CoreDream-3Light";
+}
+
+.about-title {
+  margin: 150px 0 0 10%;
+  padding-bottom: 40%;
+  color: rgb(207, 207, 207);
+}
+
+.about-maintitle {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(172, 172, 172);
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "LOTTERIADDAG";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.about-sidetitle {
+  font-size: 18px;
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "LOTTERIADDAG";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.about-contents {
+  margin: 150px 10% 0 20%;
+  transition: transform 0.3s ease-in-out;
+  font-family: "S-CoreDream-3Light";
+}
+
+.about-contents:hover {
+  transform: scale(1.01);
+}
+
+.about-contents-date {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.about-contents-text {
+  margin-top: 10px;
+  color: rgb(222, 222, 222);
+}
