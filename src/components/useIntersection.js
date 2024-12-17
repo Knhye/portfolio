@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Home from "../pages/home";
 
 const useIntersection = (ref, options = { threshold: 0.1 }) => {
   const [isVisible, setIsVisible] = useState(false);

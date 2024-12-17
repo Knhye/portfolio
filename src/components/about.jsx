@@ -23,6 +23,10 @@ const About = React.forwardRef((props, ref) => {
         <div className="about-contents-text">
           - 경북 소프트웨어 고등학교 입학
         </div>
+        <div className="about-contents-date">2024/09/21</div>
+        <div className="about-contents-text">
+          - 이화여자대학교 알고리즘 대회 참가
+        </div>
       </div>
     </div>
   );

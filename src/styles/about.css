@@ -42,12 +42,17 @@
 
 .about-contents {
   margin: 150px 10% 0 20%;
-  transition: transform 0.3s ease-in-out;
   font-family: "S-CoreDream-3Light";
 }
 
-.about-contents:hover {
-  transform: scale(1.01);
+.about-contents-date,
+.about-contents-text {
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-contents-date:hover,
+.about-contents-text:hover {
+  transform: scale(1.02);
 }
 
 .about-contents-date {
@@ -58,6 +63,6 @@
 }
 
 .about-contents-text {
-  margin-top: 10px;
+  margin: 10px 0 30px 0;
   color: rgb(222, 222, 222);
 }

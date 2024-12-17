@@ -11,7 +11,7 @@ import Introduce from "./components/introduce";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/introduce" element={<Introduce />}></Route>

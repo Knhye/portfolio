@@ -15,15 +15,15 @@ const Home = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY; // 스크롤된 거리
+      const scrollTop = window.scrollY;
       const docHeight =
-        document.documentElement.scrollHeight - window.innerHeight; // 문서 전체 높이
-      const scrollPercentage = (scrollTop / docHeight) * 100; // 스크롤 비율 계산
-      setProgress(scrollPercentage); // progress 상태 업데이트
+        document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercentage = (scrollTop / docHeight) * 100;
+      setProgress(scrollPercentage);
     };
 
-    window.addEventListener("scroll", handleScroll); // 스크롤 이벤트 등록
-    return () => window.removeEventListener("scroll", handleScroll); // 컴포넌트 언마운트 시 이벤트 제거
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
